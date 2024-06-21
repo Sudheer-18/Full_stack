@@ -1,0 +1,135 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    background-color: rgba(255, 228, 196, 0.212);
+}
+.child1{
+    width:  250px;
+    height: 300px;
+    border: 1px solid whitesmoke;
+    border-color: bisque;
+    position: relative;
+    box-shadow:0px 0px 30px 0px rgb(158, 141, 141);
+    margin:20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.strip1{
+    height: 60px;
+    width: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    background-color: gray;
+}
+.img1{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/KEFI_Residential_WHITE_NA_ALT0829.png");
+}
+.img2{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/sway_Residential_WHITE_titanium%20finish_ALT1068A.png");
+}
+.img3{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 90% 90%;
+    background-image: url("https://altlights.com/Product_Images/STYX_Residential_WHITE_NA_ALT1062.png");
+}
+.img4{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/VOLT_Residential_WHITE_Matt%20Black_ALT0071.png");
+}
+.img5{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/RIO_Residential_BLACK_NA_ALT0227.png");
+}
+.img6{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/RIO_Residential_BLACK_NA_ALT0227.png");
+}
+.img7{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/MAGNUM%20_Residential_BLACK_NA_ALT1015.png");
+}
+.img8{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/BAFFLE_Residential_BLACK_NA_ALT1055D.png");
+}
+.img9{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 100% 100%;
+    background-image: url("https://altlights.com/Product_Images/MATRIX_Residential_BLACK_NA_ALT0909.png");
+}
+.img10{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 90% 90%;
+    background-image: url("https://altlights.com/Product_Images/MAGNUM%20_Residential_BLACK_NA_ALT1023.png");
+}
+.img11{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 90% 90%;
+    background-image: url("https://altlights.com/Product_Images/ASTRE_Residential_WHITE_NA_ALT0810.png");
+}
+.img12{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-size: 90% 90%;
+    background-image: url("https://altlights.com/Product_Images/CACHE_Residential_WHITE_Matt%20Black_ALT0636.png");
+}
+
+.img_child{
+    display: flex;
+}
+.move1{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+.move2{
+    position: absolute;
+    top: 260px;
+    left: 150px;
+    color: red;
+}
+.child1 :hover{
+    box-shadow: 2px 2px 5px 5px whitesmoke;
+    border-radius: 20px;
+}
+.child1:hover .strip1{
+    background-color: red;
+}
+
