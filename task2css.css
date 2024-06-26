@@ -1,0 +1,114 @@
+.container{
+    height: 97svh;
+    width: 100%;
+    position: relative;
+}
+.part1{
+    height: 48svh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    animation-name: my_animation3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.part2{
+    height: 49svh;
+    width: 100%;
+    /* border: 1px solid #000; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: black; */
+    animation-name: my_animation4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    background-color:orange;
+    box-shadow: 0px 0px 2px 2px yellow;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: my_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.moon{
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 2px 2px gray;
+    border-radius: 50%;
+    position: relative;
+    animation-name: my_animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes my_animation{
+    0%{
+        transform: rotate(0deg) translate(-250px);
+    }
+    100%{
+        transform:rotate(360deg) translate(-250px);
+        
+    }
+}
+ 
+@keyframes my_animation1{
+    0%{
+        transform: rotate(0deg) translate(250px);
+       
+        
+    }
+    100%{
+        transform:rotate(360deg) translate(250px);
+
+    }
+}
+@keyframes my_animation3{
+    0%{
+    
+        background-image: url(../imgs/n2.jpg);
+        background-size: 100% 100%;
+    }
+    50%{
+       
+        background-image: url(../imgs/n2.jpg);
+        background-size: 100% 100%;
+    }
+    51%{
+        
+        background-image: url(../imgs/n1.jpg);
+        background-size: 100% 100%;
+    }
+    100%{
+        
+        background-image: url(../imgs/n1.jpg);
+        background-size: 100% 100%;
+    }
+}
+@keyframes my_animation4{
+    0%{
+        background-image: url(../imgs/n1.jpg);
+        background-size: 100% 100%;
+    }
+    50%{
+       
+        background-image: url(../imgs/n1.jpg);
+        background-size: 100% 100%;
+    }
+    51%{
+       
+        background-image: url(../imgs/n2.jpg);
+        background-size: 100% 100%;
+    }
+    100%{   
+       background-image: url(../imgs/n2.jpg);
+       background-size: 100% 100%;
+    }
+}
